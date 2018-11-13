@@ -1,7 +1,7 @@
 {
-  "name": "learning-threejs",
+  "name": "plot-tests",
   "version": "1.0.0",
-  "description": "a little test running threejs\r Link to the test...\r https://app.netlify.com/sites/sad-ramanujan-9aef04/overview",
+  "description": "A few quick tests on different chart packages",
   "main": "chartjs.js",
   "dependencies": {
     "c3": "^0.6.8",
@@ -20,15 +20,7 @@
     "plotly": "webpack ./src/plottest.js --mode production",
     "c3": "webpack ./src/c3chart.js --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tehsurfer/learning-threejs.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tehsurfer/learning-threejs/issues"
-  },
-  "homepage": "https://github.com/Tehsurfer/learning-threejs#readme"
 }
