@@ -1,0 +1,34 @@
+{
+  "name": "learning-threejs",
+  "version": "1.0.0",
+  "description": "a little test running threejs\r Link to the test...\r https://app.netlify.com/sites/sad-ramanujan-9aef04/overview",
+  "main": "chartjs.js",
+  "dependencies": {
+    "c3": "^0.6.8",
+    "chart.js": "^2.7.3",
+    "cli": "^1.0.1",
+    "plotly.js-dist": "^1.42.5",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chartjs": "webpack ./src/chartjs.js --mode production",
+    "plotly": "webpack ./src/plottest.js --mode production",
+    "c3": "webpack ./src/c3chart.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tehsurfer/learning-threejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tehsurfer/learning-threejs/issues"
+  },
+  "homepage": "https://github.com/Tehsurfer/learning-threejs#readme"
+}
