@@ -2,7 +2,7 @@ var Plotly = require('plotly.js-dist');
 var Chart = require('chart.js');
 
 var mychart;
-Plotly.d3.csv("https://raw.githubusercontent.com/Tehsurfer/MPB/hoverGraph/simple_heart/models/data/openCorExport.csv", function(err, rows){
+Plotly.d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv", function(err, rows){
 
   function unpack(rows, key) {
   return rows.map(function(row) { return row[key]; });
